@@ -20,7 +20,7 @@ declare moduleName="microservices-aspnet-core"
 # Any other declarations we need
 if ! [ $defaultRegion ]
 then
-    declare defaultRegion=centralus
+    declare defaultRegion=westeurope
 fi
 declare -x gitBranch="live"
 declare initScript=https://raw.githubusercontent.com/MicrosoftDocs/mslearn-aspnet-core/$gitBranch/infrastructure/scripts/initenvironment.sh
